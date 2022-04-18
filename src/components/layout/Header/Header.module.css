@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.headerLink {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-style: italic;
+  color: darkgray;
+}

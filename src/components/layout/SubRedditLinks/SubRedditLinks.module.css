@@ -1,0 +1,21 @@
+.SubRedditLinks {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.SubRedditLinks::-webkit-scrollbar {
+  display: none;
+}
+
+.SubRedditLinks > a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  background: lightgray;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  color: inherit;
+}

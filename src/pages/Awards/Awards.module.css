@@ -1,0 +1,60 @@
+.Awards {
+  padding: 2rem;
+}
+
+.AwardsSearchForm {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .25);
+  padding: 1.5rem;
+  position: relative;
+}
+
+.AwardsSearchForm > input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+}
+
+.AwardsSearchForm > button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: .8rem 1.5rem;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.AwardsCategory {
+  padding: 2rem;
+}
+
+.AwardsCategory > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.AwardsCategory > div > div {
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .25);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  border: 2px solid transparent;
+}
+
+.selectedNominee {
+  border: 2px solid #101010 !important;
+}
